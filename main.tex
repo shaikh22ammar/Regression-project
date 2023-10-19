@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt,twoside]{article}
+\usepackage{blindtext}
+
+%\usepackage[showframe]{geometry}
+
+%\input{preamble/margin.tex}
+\input{preamble/font.tex}
+\input{preamble/headers.tex}
+
+\usepackage{enumitem}
+\input{preamble/section.tex}
+%\input{preamble/toc.tex}
+
+
+\input{preamble/floats.tex}
+\input{preamble/code.tex}
+
+\input{preamble/reference.tex}
+
+\title{Regression project}
+\author{Shaikh Ammar \and Yash Talreja} \date{}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\flushbottom
+\input{section/introduction.tex}
+
+\input{section/multicollinearity.tex}
+
+\input{section/violation.tex}
+
+\input{section/outliers.tex}
+
+\input{section/model selection.tex}
+
+\input{section/code.tex}
+
+\end{document}
